@@ -4,7 +4,7 @@ dns.setServers(["8.8.8.8","8.8.4.4"])
 const connectDB = async () => {
   try {
     
-    await mongoose.connect('mongodb+srv://josaiboppana:<db_josai@4217>@cluster0.rxrzhyp.mongodb.net/Josai');
+    await mongoose.connect('mongodb+srv://josaiboppana:<josai@4217>@cluster0.rxrzhyp.mongodb.net/Josai');
     
     console.log('MongoDB connected successfully!');
   } catch (err) {
